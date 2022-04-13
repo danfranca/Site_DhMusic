@@ -94,11 +94,10 @@ header {
 
 .play{
     background-color: rgba(0, 0, 0, 0.295);
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
-    border: 5px solid white;
-    font-size: 32pt;
+    padding: 10px 20px 10px 20px;
+    border-radius: 35px;
+    border: 3px solid white;
+    font-size: 25pt;
     color: white;
 }
 
@@ -117,8 +116,8 @@ header {
 /* -------------------------------------- */
 .banner{
     background-color:rgba(0, 0, 0, 0.39) ;
-    width: 100%;
-    border: 5px solid;
+    width: 95%;
+    border: 3px solid;
     border-color: white white black white;
     border-radius: 30px 30px 0 0;
     display: flex;
@@ -132,7 +131,7 @@ header {
 }
 
 .banner .musica{
-    border: 5px solid white;
+    border: 3px solid white;
     background-color: rgba(0, 0, 0, 0.87);
     border-radius: 15px; 
     /* position: relative; */

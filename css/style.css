@@ -1,9 +1,10 @@
 *{margin: 0; padding: 0;list-style: none; box-sizing: border-box; text-decoration: none;}
 
 header {
-    background-color: rgba(0, 0, 0, 0.822);
+    background-color: rgba(0, 0, 0, 0.877);
     width: 100%;
     position: absolute;
+    position: fixed;
 }
 
 .cabecalho {
@@ -12,7 +13,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     margin: 0 40px ;
-    padding: 25px;
+    padding: 20px 25px 20px 25px;
 }
 
 .menu{
@@ -35,9 +36,12 @@ header {
     color: white;
 }
 
-.logo-cabecalho{
-    border: 3px solid white;
+.logo-cabecalho p{
+    border: 1px solid white;
     padding: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17pt;
 }
 
 .background{

@@ -10,16 +10,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin: 0 40px ;
     padding: 25px;
 }
 
 .menu{
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     font-family: 'Poppins', sans-serif;
     /* background-color: blueviolet; */
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 .menu a:hover{
@@ -47,25 +51,31 @@ header {
     background-attachment: fixed;    
 }
 
-.quadrado{
-    height: 3000px;
-}
-
 .container{
     width: 100%;
-    height: 1000px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 25px;
 }
 
+/* logo centro --------------------------- */
+.centro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 300px 0 200px 0;
+}
+
 .logo-grande{
     /* background-color: black; */
-    width: 613px;
-    height: 150px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,12 +101,113 @@ header {
 .play:hover{
     transform: scale(1.1);
     color: rgb(8, 247, 247);
-    transition: 0.3s;
+    transition: 0.2s;
     border-color: rgb(8, 247, 247) ;
     cursor: pointer;
 }
+.play:active{
+    transform: scale(0.9);
+}
 
 
+/* -------------------------------------- */
+.banner{
+    background-color:rgba(0, 0, 0, 0.39) ;
+    width: 100%;
+    border: 5px solid;
+    border-color: white white black white;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* position: relative; */
+    gap: 70px;
+    padding: 50px;
+    
+}
+
+.banner .musica{
+    border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 15px; 
+    /* position: relative; */
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    /* display: flex; */
+    /* justify-content:center; */
+    /* align-items:flex-start; */
+    /* flex-wrap: wrap; */
+    transition: 0.5s ease-in-out;
+}
+
+.banner .musica:hover{
+    transition: 0.5s ease-in-out;
+    height: 500px;
+    border: 5px solid rgb(8, 247, 247);
+}
+
+.banner .musica .imagem {
+    /* position: relative; */
+    width: 300px;
+    height: 300px;
+    /* padding-top: 20px; */
+    z-index: 1;
+    /* background-color: brown; */
+}
+
+.banner .musica .image img{
+    
+    border-radius: 10px;
+} 
+
+.banner .musica .texto{
+    /* background-color: blueviolet; */
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    visibility: hidden;
+    transition: 0.6s;
+    transition-delay: -000.5s;
+    gap: 5px;
+    z-index: 1;
+}
+
+.banner .musica:hover .texto{
+    visibility: visible;
+    transition-delay: 0.4s;
+}
+
+.play2{
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 3px solid white;
+    margin-top: 20px;
+    color: white;
+}
+
+.play2 img{
+    padding-left: 7px;
+}
+.play2:hover{
+    transform: scale(1.1);
+    color: rgb(8, 247, 247);
+    transition: 0.2s;
+    border-color: rgb(8, 247, 247) ;
+    cursor: pointer;
+}
+.play2:active{
+    transform: scale(0.9);
+}
 
 
 
@@ -146,4 +257,5 @@ footer{
 .atuacao {
     font-size: 12pt;
     font-family: 'Montserrat', sans-serif;
+
 }

@@ -314,3 +314,37 @@ footer{
     color: white;
     gap: 20px;
 }
+
+.botoes{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.play3{
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid white;
+    margin-top: 20px;
+    color: white;
+}
+
+.play3 img{
+    padding-left: 7px;
+}
+.play3:hover{
+    transform: scale(1.1);
+    color: rgb(8, 247, 247);
+    transition: 0.2s;
+    border-color: rgb(8, 247, 247) ;
+    cursor: pointer;
+}
+.play3:active{
+    transform: scale(0.9);
+}
+

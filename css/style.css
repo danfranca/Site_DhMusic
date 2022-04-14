@@ -148,7 +148,7 @@ header {
 .banner .musica:hover{
     transition: 0.5s ease-in-out;
     height: 500px;
-    border: 5px solid rgb(8, 247, 247);
+    border: 3px solid rgb(8, 247, 247);
 }
 
 .banner .musica .imagem {
@@ -215,9 +215,6 @@ header {
 
 
 
-
-
-
 footer{
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -248,7 +245,7 @@ footer{
     flex-wrap: wrap;
 }
 
-.redes {
+.redes{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,4 +258,59 @@ footer{
     font-size: 12pt;
     font-family: 'Montserrat', sans-serif;
 
+}
+
+.quadrado{
+    background-color: aquamarine;
+    height: 1000px;
+}
+
+
+/* ----------------------------------descricao-----------------------------  */
+
+.background2{
+    
+    background-image: url(../img/background/3425171.jpg);
+    /* cobrir a tela toda  */
+    /* width: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* nao rolar com a pagina, deixar travada */
+    background-attachment: fixed;
+       
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 130px;
+    gap: 40px;
+}
+
+.banner2{
+    background-color:rgba(0, 0, 0, 0.829) ;
+    width: 95%;
+    border: 3px solid;
+    border-color: white white white white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* position: relative; */
+    gap: 70px;
+    padding: 35px 50px 35px 50px;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    gap: 20px;
 }

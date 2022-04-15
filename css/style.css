@@ -69,9 +69,6 @@ header {
     background-position: center;
     /* nao rolar com a pagina, deixar travada */
     background-attachment: fixed;  
-    display: flex;
-    justify-content: center;
-    align-items: center;  
 }
 
 .container{
@@ -97,6 +94,7 @@ header {
     gap: 25px;
     margin: 300px 0 200px 0;
     text-align: center;
+    padding: 20px;
 }
 
 .logo-grande{
@@ -421,3 +419,11 @@ footer{
     }
 }
 
+
+@media (min-width: 1250px){
+    .background{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+}

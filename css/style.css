@@ -43,6 +43,17 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 17pt;
 }
+.logo-cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 40px;
+}
+
+.gif{
+    width: 60px;
+}
 
 .background{
     background-image: url(../img/glowing-musical-pentagram-background-with-sound-notes/SL.123119.26540.04.jpg);
@@ -373,9 +384,13 @@ footer{
 
 
 
+@media(max-width: 408px) {
+    .gif{
+        display: none;
+    }
+}
 
-
-@media (max-width: 600px){
+@media (max-width: 703px){
     .menu-lista{
         display: none;
         }
@@ -384,9 +399,10 @@ footer{
     }
 }
 
-@media (min-width: 601px){
+@media (min-width: 704px){
    
     .hamburg{
         display: none;
     }
 }
+

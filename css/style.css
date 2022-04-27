@@ -324,16 +324,29 @@ footer{
     background-position: center;
     /* nao rolar com a pagina, deixar travada */
     background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
        
 }
 
+
+
 .container2{
+    /* background-color: blueviolet; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding-top: 130px;
     gap: 40px;
+}
+
+.tubinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .banner2{
@@ -396,9 +409,27 @@ footer{
 
 
 
+.youtube-responsive {
+    width: 510px;
+    height: 310px;
+}
+    
 
 
 
+
+@media only screen and (max-width: 600px) {
+    .youtube-responsive {
+        width: 310px;
+        height: 210px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .youtube-responsive {
+        width: 210px;
+        height: 110px;
+    }
+}
 
 @media(max-width: 390px) {
     .gif{
@@ -430,3 +461,13 @@ footer{
         align-items: center;  
     }
 }
+
+
+/* ------------------------ */
+
+/* @media (max-width: 565px){
+    .youtube {
+        
+       
+    }
+} */
